@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Saylani Registration Form</h1>
+        <form action="#" method="POST">
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <!-- Highest Qualification -->
+            <div class="form-group">
+                <label for="qualification">Highest Qualification:</label>
+                <input type="text" id="qualification" name="qualification" placeholder="Enter your qualification" required>
+            </div>
+
+            <!-- Name of Last Institution Attended -->
+            <div class="form-group">
+                <label for="institution">Last Institution Attended:</label>
+                <input type="text" id="institution" name="institution" placeholder="Enter institution name" required>
+            </div>
+
+            <!-- Year of Graduation -->
+            <div class="form-group">
+                <label for="graduation">Year of Graduation:</label>
+                <input type="number" id="graduation" name="graduation" placeholder="Enter year of graduation" required>
+            </div>
+
+            <!-- Dropdown for Desired Program -->
+            <div class="form-group">
+                <label for="program">Desired Program:</label>
+                <select id="program" name="program" required>
+                    <option value="" disabled selected>Select a program</option>
+                    <option value="program1">Computer Science</option>
+                    <option value="program2">Information Technology</option>
+                    <option value="program3">Data Science</option>
+                    <option value="program4">Web Development</option>
+                </select>
+            </div>
+
+            <!-- Checkboxes for Additional Courses -->
+            <div class="form-group">
+                <label>Additional Courses or Workshops:</label><br>
+                <input type="checkbox" id="course1" name="course1">
+                <label for="course1"> AI & Machine Learning</label><br>
+                <input type="checkbox" id="course2" name="course2">
+                <label for="course2"> Cloud Computing</label><br>
+                <input type="checkbox" id="course3" name="course3">
+                <label for="course3"> Mobile App Development</label>
+            </div>
+
+            <!-- Permanent Address -->
+            <div class="form-group">
+                <label for="address">Permanent Address:</label>
+                <input type="text" id="address" name="address" placeholder="Enter your permanent address" required>
+            </div>
+
+            <!-- City -->
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required>
+            </div>
+
+            <!-- Postal Code -->
+            <div class="form-group">
+                <label for="postalCode">Postal Code:</label>
+                <input type="text" id="postalCode" name="postalCode" placeholder="Enter postal code" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" onclick="alert('Your registration has been submitted!')">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
